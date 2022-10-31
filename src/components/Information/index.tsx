@@ -1,6 +1,7 @@
+import { FC } from 'react'
 import styles from './Information.module.scss'
 
-const Information = () => {
+const Information: FC = () => {
   return <div className={styles.Information}></div>
 }
 
