@@ -1,0 +1,19 @@
+@import '../../styles/app.scss';
+
+.Header {
+  background: $lightbg;
+  padding: 10px 0;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: $white;
+  font-size: 25px;
+}
+.lang {
+  color: $white;
+  font-size: 18px;
+}

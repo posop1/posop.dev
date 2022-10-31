@@ -1,0 +1,13 @@
+$bg-color: #080808;
+$white: #eaeaea;
+$lightbg: #1f1f1f;
+$light: #5c5c5c;
+
+.App {
+  background: $bg-color;
+  min-height: 100vh;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
