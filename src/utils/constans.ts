@@ -1,6 +1,6 @@
 import { IText } from '../types'
 
-export const Test: IText[] = [
+export const Text: IText[] = [
   {
     title: 'Привет, меня зовут Артур(Posop) ✌',
     body: 'Я 19-летний программист из России г.Нижневартовск. Я заинтересован в Frontend на React и также не много на Backend разработке, на NodeJs.',
