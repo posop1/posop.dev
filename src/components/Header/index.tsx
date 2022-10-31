@@ -16,7 +16,7 @@ const Header: FC<HeaderProps> = ({ lang, changeLang }) => {
             className={styles.lang}
             onClick={() => changeLang()}
           >
-            {lang ? 'EN' : 'RU'}
+            {lang ? 'RU' : 'EN'}
           </button>
         </div>
       </div>
