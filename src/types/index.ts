@@ -1,5 +1,10 @@
 export interface IText {
   title: string
   body: string
-  stack: string
+  stack: IStack
+}
+
+export interface IStack {
+  title: string
+  stackItem: string[]
 }
