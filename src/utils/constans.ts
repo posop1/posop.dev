@@ -17,10 +17,10 @@ export const text: IText[] = [
     }
   },
   {
-    title: 'ENG Привет, меня зовут Артур(Posop) ✌',
-    body: 'Я 19-летний программист из России г.Нижневартовск. Я заинтересован в Frontend на React и также не много на Backend разработке, на NodeJs.',
+    title: 'Hello, my name is Artur(Posop)✌️',
+    body: "I'm 19 y.o. programmer from Nizhnevartovsk, Russia. I'm interested in frontend development on React and also I know something about backend development on Nodejs.",
     stack: {
-      title: 'Мой стэк:',
+      title: 'My stack:',
       stackItem: [
         'TypeScript',
         'React, NodeJs, Express',
