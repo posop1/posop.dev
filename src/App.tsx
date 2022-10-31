@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import Information from './components/Information'
 import './styles/app.scss'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         lang={lang}
         changeLang={changeLang}
       />
+      <Information lang={lang} />
     </div>
   )
 }
