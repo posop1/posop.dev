@@ -8,6 +8,7 @@ const InfoItem: FC<IText> = ({ title, body, stack }) => {
       <div>
         <span>
           {title},{body}
+          {stack.stackItem}
         </span>
       </div>
     </div>
