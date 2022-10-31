@@ -1,13 +1,23 @@
 import { FC } from 'react'
 import styles from './Header.module.scss'
 
-const Header: FC = () => {
+interface HeaderProps {
+  lang: boolean
+  changeLang: Function
+}
+
+const Header: FC<HeaderProps> = ({ lang, changeLang }) => {
   return (
     <div className={styles.Header}>
       <div className="container">
         <div className={styles.inner}>
           <h1>Posop Dev</h1>
-          <span className={styles.lang}>EN</span>
+          <button
+            className={styles.lang}
+            onClick={() => changeLang()}
+          >
+            {lang ? 'EN' : 'RU'}
+          </button>
         </div>
       </div>
     </div>
