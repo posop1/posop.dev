@@ -7,13 +7,12 @@ export const text: IText[] = [
     stack: {
       title: 'Мой стэк:',
       stackItem: [
-        'TypeScript',
-        'React, NodeJs, Express',
-        'Redux. redux/toolkit',
-        'SASS, SCSS, styled-components',
-        'ESLint, Prettier',
-        'Git, GitHub, GitLab'
-      ]
+        { text: 'TypeScript' },
+        { text: 'React, NodeJs, Express' },
+        { text: 'Redux. redux/toolkit' },
+        { text: 'SASS, SCSS, styled-components' },
+        { text: 'ESLint, Prettier' },
+        { text: 'Git, GitHub, GitLab' }]
     }
   },
   {
@@ -22,13 +21,12 @@ export const text: IText[] = [
     stack: {
       title: 'My stack:',
       stackItem: [
-        'TypeScript',
-        'React, NodeJs, Express',
-        'Redux. redux/toolkit',
-        'SASS, SCSS, styled-components',
-        'ESLint, Prettier',
-        'Git, GitHub, GitLab'
-      ]
+        { text: 'TypeScript' },
+        { text: 'React, NodeJs, Express' },
+        { text: 'Redux. redux/toolkit' },
+        { text: 'SASS, SCSS, styled-components' },
+        { text: 'ESLint, Prettier' },
+        { text: 'Git, GitHub, GitLab' }]
     }
   }
 ]

@@ -8,7 +8,9 @@ const InfoItem: FC<IText> = ({ title, body, stack }) => {
       <div>
         <span>
           {title},{body}
-          {stack.stackItem}
+          {stack.stackItem.map((item) => (
+            <li>{item.text}</li>
+          ))}
         </span>
       </div>
     </div>

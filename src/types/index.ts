@@ -6,5 +6,9 @@ export interface IText {
 
 export interface IStack {
   title: string
-  stackItem: string[]
+  stackItem: IStackItem[]
+}
+
+export interface IStackItem {
+  text: string
 }
