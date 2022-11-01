@@ -7,9 +7,11 @@ const InfoItem: FC<IText> = ({ title, body, stack }) => {
     <div className={styles.InfoItem}>
       <div>
         <span>
-          {title},{body}
+          <h2 className={styles.title}>{title}</h2>
+          <p className={styles.maininfo}>{body}</p>
+          <p className={styles.stack}>{stack.title}</p>
           {stack.stackItem.map((item) => (
-            <li>{item.text}</li>
+            <li className={styles.stackitem}>{item.text}</li>
           ))}
         </span>
       </div>
