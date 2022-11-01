@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { FaHandPeace } from 'react-icons/fa'
 import { IText } from '../../../types'
 import styles from './InfoItem.module.scss'
 
@@ -7,7 +8,13 @@ const InfoItem: FC<IText> = ({ title, body, stack }) => {
     <div className={styles.InfoItem}>
       <div>
         <span>
-          <h2 className={styles.title}>{title}</h2>
+          <h2 className={styles.title}>
+            {title}
+            <FaHandPeace
+              color="ffff00"
+              size={'25px'}
+            />
+          </h2>
           <p className={styles.maininfo}>{body}</p>
           <p className={styles.stack}>{stack.title}</p>
           {stack.stackItem.map((item) => (
