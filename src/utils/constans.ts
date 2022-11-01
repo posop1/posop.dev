@@ -17,7 +17,7 @@ export const text: IText[] = [
   },
   {
     title: 'Hello, my name is Artur(Posop)',
-    body: "I'm 19 y.o. programmer from Nizhnevartovsk, Russia. I'm interested in frontend development on React and also I know something about backend development on Nodejs.",
+    body: "I'm 19 y.o. programmer from Nizhnevartovsk, Russia. I'm interested in Frontend development on React and also I know something about Backend development on NodeJs.",
     stack: {
       title: 'My stack:',
       stackItem: [
