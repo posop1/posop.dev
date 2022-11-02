@@ -1,6 +1,7 @@
+import { FC } from 'react'
 import styles from './ProjectsList.module.scss'
 
-const ProjectsList = () => {
+const ProjectsList: FC = () => {
   return <div className={styles.ProjectsList}>ProjectsList</div>
 }
 

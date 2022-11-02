@@ -37,3 +37,16 @@ export const text: IText[] = [
     }
   }
 ]
+
+export const projects = [
+  {
+    title: 'Мои проекты:'
+    items: [
+      {name: 'RUtest', description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest', stack: 'test, test, test,  test', href: 'https://google.com'},
+      {name: 'RUtest2', description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest', stack: 'test, test, test,  test', href: 'https://google.com'}
+    ]
+  },
+  {
+    title: 'My projects:'
+  }
+]
