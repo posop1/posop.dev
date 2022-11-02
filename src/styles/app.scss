@@ -6,10 +6,10 @@ $light: #5c5c5c;
 .App {
   background: $lightbg;
   color: $white;
+  padding: 0 15px;
 }
 .container {
   max-width: 900px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 .main {

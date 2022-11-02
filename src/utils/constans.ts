@@ -45,28 +45,28 @@ export const projects: IProject[] = [
       {
         id: 1,
         name: 'RUtest',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
         id: 2,
         name: 'RUtest2',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
         id: 3,
         name: 'RUtest2',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
         id: 4,
         name: 'RUtest2',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       }
@@ -78,28 +78,28 @@ export const projects: IProject[] = [
       {
         id: 1,
         name: 'ENtest',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
         id: 2,
         name: 'ENtest2',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
         id: 3,
         name: 'ENtest2',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
         id: 4,
         name: 'ENtest2',
-        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       }
