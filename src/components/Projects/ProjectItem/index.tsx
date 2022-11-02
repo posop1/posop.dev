@@ -1,9 +1,10 @@
 import { FC } from 'react'
 import { FaGithub } from 'react-icons/fa'
+import { MdWebAsset } from 'react-icons/md'
 import { IProjectItem } from '../../../types'
 import styles from './ProjectItem.module.scss'
 
-const ProjectItem: FC<IProjectItem> = ({ name, description, stack, href }) => {
+const ProjectItem: FC<IProjectItem> = ({ name, description, stack, hrefGit, hrefSite }) => {
   return (
     <div className={styles.ProjectItem}>
       <div className={styles.info}>
@@ -11,14 +12,24 @@ const ProjectItem: FC<IProjectItem> = ({ name, description, stack, href }) => {
         <p>{description}</p>
         <p className={styles.stack}>{stack}</p>
       </div>
-
-      <a
-        target="_blank"
-        href={href}
-        className={styles.project__link}
-      >
-        <FaGithub size={'28px'} />
-      </a>
+      <div>
+        <a
+          target="_blank"
+          href={hrefGit}
+          className={styles.project__link}
+        >
+          <FaGithub size={'28px'} />
+        </a>
+        {hrefSite && (
+          <a
+            target="_blank"
+            href={hrefSite}
+            className={styles.project__link}
+          >
+            <MdWebAsset size={'28px'} />
+          </a>
+        )}
+      </div>
     </div>
   )
 }

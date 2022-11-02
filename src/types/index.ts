@@ -28,5 +28,6 @@ export interface IProjectItem {
   name: string
   description: string
   stack: string
-  href: string
+  hrefGit: string
+  hrefSite?: string
 }

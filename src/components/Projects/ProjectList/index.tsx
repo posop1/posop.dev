@@ -15,7 +15,8 @@ const ProjectList: FC<IProject> = ({ title, items }) => {
               name={item.name}
               description={item.description}
               stack={item.stack}
-              href={item.href}
+              hrefGit={item.hrefGit}
+              hrefSite={item.hrefSite}
             />
           ))}
         </div>
