@@ -60,13 +60,13 @@ export const projects: IProject[] = [
     title: 'My projects:',
     items: [
       {
-        name: 'RUtest',
+        name: 'ENtest',
         description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
-        name: 'RUtest2',
+        name: 'ENtest2',
         description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
