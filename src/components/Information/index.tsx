@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { FaDiscord, FaGithub, FaTelegramPlane } from 'react-icons/fa'
 import { text } from '../../utils/constans'
 import InfoItem from './InfoItem'
 import styles from './Information.module.scss'
@@ -25,6 +26,26 @@ const Information: FC<InformationProps> = ({ lang }) => {
               stack={text[1].stack}
             />
           )}
+          <div className={styles.social}>
+            <a
+              href=""
+              className={styles.social__btn}
+            >
+              <FaTelegramPlane />
+            </a>
+            <a
+              href=""
+              className={styles.social__btn}
+            >
+              <FaDiscord />
+            </a>
+            <a
+              href=""
+              className={styles.social__btn}
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
       </div>
     </div>

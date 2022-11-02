@@ -16,7 +16,9 @@ function App() {
         lang={lang}
         changeLang={changeLang}
       />
-      <Information lang={lang} />
+      <div className="main">
+        <Information lang={lang} />
+      </div>
     </div>
   )
 }
