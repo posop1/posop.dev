@@ -28,7 +28,8 @@ const Information: FC<InformationProps> = ({ lang }) => {
           )}
           <div className={styles.social}>
             <a
-              href=""
+              target="_blank"
+              href="https://t.me/devllprod"
               className={styles.social__btn}
             >
               <FaTelegramPlane />
