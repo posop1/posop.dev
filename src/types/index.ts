@@ -24,6 +24,7 @@ export interface IProject {
   items: IProjectItem[]
 }
 export interface IProjectItem {
+  id?: number
   name: string
   description: string
   stack: string

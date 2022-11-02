@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Information from './components/Information'
-import ProjectsList from './components/ProjectsList'
+import Projects from './components/Projects'
 import './styles/app.scss'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       />
       <div className="main">
         <Information lang={lang} />
-        <ProjectsList />
+        <Projects lang={lang} />
       </div>
     </div>
   )

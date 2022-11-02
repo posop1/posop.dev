@@ -40,15 +40,31 @@ export const text: IText[] = [
 
 export const projects: IProject[] = [
   {
-    title: 'Мои проекты:',
+    title: 'Мои проекты',
     items: [
       {
+        id: 1,
         name: 'RUtest',
         description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
+        id: 2,
+        name: 'RUtest2',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      },
+      {
+        id: 3,
+        name: 'RUtest2',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      },
+      {
+        id: 4,
         name: 'RUtest2',
         description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
         stack: 'test, test, test,  test',
@@ -57,15 +73,31 @@ export const projects: IProject[] = [
     ]
   },
   {
-    title: 'My projects:',
+    title: 'My projects',
     items: [
       {
+        id: 1,
         name: 'ENtest',
         description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
         stack: 'test, test, test,  test',
         href: 'https://google.com'
       },
       {
+        id: 2,
+        name: 'ENtest2',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      },
+      {
+        id: 3,
+        name: 'ENtest2',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      },
+      {
+        id: 4,
         name: 'ENtest2',
         description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
         stack: 'test, test, test,  test',
