@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { FaDiscord, FaGithub, FaTelegramPlane } from 'react-icons/fa'
-import { text } from '../../utils/constans'
+import { socialLinks, text } from '../../utils/constans'
 import InfoItem from './InfoItem'
 import styles from './Information.module.scss'
 
@@ -27,25 +27,16 @@ const Information: FC<InformationProps> = ({ lang }) => {
             />
           )}
           <div className={styles.social}>
-            <a
-              target="_blank"
-              href="https://t.me/devllprod"
-              className={styles.social__btn}
-            >
-              <FaTelegramPlane />
-            </a>
-            <a
-              href=""
-              className={styles.social__btn}
-            >
-              <FaDiscord />
-            </a>
-            <a
-              href=""
-              className={styles.social__btn}
-            >
-              <FaGithub />
-            </a>
+            {socialLinks.map((link) => (
+              <a
+                target="_blank"
+                href={link.href}
+                key={link.id}
+                className={styles.social__btn}
+              >
+                <link.component />
+              </a>
+            ))}
           </div>
         </div>
       </div>
