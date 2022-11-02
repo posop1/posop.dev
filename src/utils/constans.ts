@@ -2,7 +2,7 @@ import { FaDiscord, FaGithub, FaTelegramPlane } from 'react-icons/fa'
 import { ILinks, IText } from '../types'
 
 export const socialLinks: ILinks[] = [
-  { id: 1, component: FaTelegramPlane, href: 'https://t.me/devllprod' },
+  { id: 1, component: FaTelegramPlane, href: 'https://t.me/posop1' },
   { id: 2, component: FaDiscord, href: 'https://discordapp.com/users/470606448368549907/' },
   { id: 3, component: FaGithub, href: 'https://github.com/posop1' }
 ]
