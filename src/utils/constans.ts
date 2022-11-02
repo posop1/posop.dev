@@ -1,5 +1,5 @@
 import { FaDiscord, FaGithub, FaTelegramPlane } from 'react-icons/fa'
-import { ILinks, IText } from '../types'
+import { ILinks, IProject, IText } from '../types'
 
 export const socialLinks: ILinks[] = [
   { id: 1, component: FaTelegramPlane, href: 'https://t.me/posop1' },
@@ -38,15 +38,39 @@ export const text: IText[] = [
   }
 ]
 
-export const projects = [
+export const projects: IProject[] = [
   {
-    title: 'Мои проекты:'
+    title: 'Мои проекты:',
     items: [
-      {name: 'RUtest', description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest', stack: 'test, test, test,  test', href: 'https://google.com'},
-      {name: 'RUtest2', description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest', stack: 'test, test, test,  test', href: 'https://google.com'}
+      {
+        name: 'RUtest',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      },
+      {
+        name: 'RUtest2',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      }
     ]
   },
   {
-    title: 'My projects:'
+    title: 'My projects:',
+    items: [
+      {
+        name: 'RUtest',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      },
+      {
+        name: 'RUtest2',
+        description: 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest',
+        stack: 'test, test, test,  test',
+        href: 'https://google.com'
+      }
+    ]
   }
 ]

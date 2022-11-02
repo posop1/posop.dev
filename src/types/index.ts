@@ -18,3 +18,14 @@ export interface ILinks {
   component: IconType
   href: string
 }
+
+export interface IProject {
+  title: string
+  items: IProjectItem[]
+}
+export interface IProjectItem {
+  name: string
+  description: string
+  stack: string
+  href: string
+}
