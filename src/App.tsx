@@ -2,26 +2,27 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Information from './components/Information'
 import Projects from './components/Projects'
+import { LangContext } from './context'
 import './styles/app.scss'
 
 function App() {
   const [lang, setLang] = useState<boolean>(false)
 
-  const changeLang = () => {
-    setLang((lang) => (lang = !lang))
-  }
-
   return (
-    <div className="App">
-      <Header
-        lang={lang}
-        changeLang={changeLang}
-      />
-      <div className="main">
-        <Information lang={lang} />
-        <Projects lang={lang} />
+    <LangContext.Provider
+      value={{
+        lang,
+        setLang
+      }}
+    >
+      <div className="App">
+        <Header />
+        <div className="main">
+          <Information />
+          <Projects />
+        </div>
       </div>
-    </div>
+    </LangContext.Provider>
   )
 }
 

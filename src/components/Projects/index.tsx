@@ -1,13 +1,12 @@
-import { FC } from 'react'
+import { FC, useContext } from 'react'
+import { LangContext } from '../../context'
 import { projects } from '../../utils/constans'
 import ProjectList from './ProjectList'
 import styles from './Projects.module.scss'
 
-interface ProjectsListProps {
-  lang: boolean
-}
+const Projects: FC = () => {
+  const { lang } = useContext(LangContext)
 
-const Projects: FC<ProjectsListProps> = ({ lang }) => {
   return (
     <div className={styles.Projects}>
       {lang ? (

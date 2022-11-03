@@ -1,3 +1,4 @@
+import React from 'react'
 import { IconType } from 'react-icons/lib'
 
 export interface IText {
@@ -30,4 +31,8 @@ export interface IProjectItem {
   stack: string
   hrefGit: string
   hrefSite?: string
+}
+export interface ILangContext {
+  lang?: boolean
+  setLang: React.Dispatch<React.SetStateAction<boolean>>
 }

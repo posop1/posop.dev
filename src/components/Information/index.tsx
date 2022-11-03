@@ -1,13 +1,12 @@
-import { FC } from 'react'
+import { FC, useContext } from 'react'
+import { LangContext } from '../../context'
 import { socialLinks, text } from '../../utils/constans'
 import InfoItem from './InfoItem'
 import styles from './Information.module.scss'
 
-interface InformationProps {
-  lang: boolean
-}
+const Information: FC = () => {
+  const { lang } = useContext(LangContext)
 
-const Information: FC<InformationProps> = ({ lang }) => {
   return (
     <div className={styles.Information}>
       <div className={styles.inner}>
