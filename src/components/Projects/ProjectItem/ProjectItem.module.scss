@@ -34,3 +34,15 @@ p {
 .stack {
   color: $light;
 }
+.links {
+  display: flex;
+}
+
+@media (max-width: 425px) {
+  .ProjectItem {
+    flex-direction: column;
+  }
+  .links {
+    margin-top: 20px;
+  }
+}

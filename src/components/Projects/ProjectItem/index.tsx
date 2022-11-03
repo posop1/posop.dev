@@ -12,7 +12,7 @@ const ProjectItem: FC<IProjectItem> = ({ name, description, stack, hrefGit, href
         <p>{description}</p>
         <p className={styles.stack}>{stack}</p>
       </div>
-      <div>
+      <div className={styles.links}>
         <a
           target="_blank"
           href={hrefGit}

@@ -16,3 +16,9 @@
     color: $light;
   }
 }
+
+@media (max-width: 425px) {
+  .Information {
+    margin-top: 50px;
+  }
+}
