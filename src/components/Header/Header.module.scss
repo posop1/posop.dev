@@ -1,7 +1,7 @@
 @import '../../styles/app.scss';
 
 .Header {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 .inner {
   display: flex;
@@ -9,15 +9,26 @@
   align-items: center;
 }
 h1 {
-  color: $white;
   font-size: 25px;
 }
-.lang {
-  color: $white;
+.btn {
   font-size: 18px;
   font-weight: 700;
   background: none;
   border: none;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+
+  &:first-child {
+    margin-top: 4px;
+  }
+}
+.btns__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70px;
+  width: 100%;
+}
+hr {
+  height: 20px;
 }

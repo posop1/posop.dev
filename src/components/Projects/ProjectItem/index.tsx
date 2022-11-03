@@ -9,7 +9,7 @@ const ProjectItem: FC<IProjectItem> = ({ name, description, stack, hrefGit, href
     <div className={styles.ProjectItem}>
       <div className={styles.info}>
         <h4>{name}</h4>
-        <p>{description}</p>
+        <p className={styles.description}>{description}</p>
         <p className={styles.stack}>{stack}</p>
       </div>
       <div className={styles.links}>

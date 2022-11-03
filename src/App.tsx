@@ -2,27 +2,35 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Information from './components/Information'
 import Projects from './components/Projects'
-import { LangContext } from './context'
+import { LangContext, ThemeContext } from './context'
 import './styles/app.scss'
 
 function App() {
   const [lang, setLang] = useState<boolean>(false)
+  const [theme, setTheme] = useState<boolean>(false)
 
   return (
-    <LangContext.Provider
+    <ThemeContext.Provider
       value={{
-        lang,
-        setLang
+        theme,
+        setTheme
       }}
     >
-      <div className="App">
-        <Header />
-        <div className="main">
-          <Information />
-          <Projects />
+      <LangContext.Provider
+        value={{
+          lang,
+          setLang
+        }}
+      >
+        <div className={theme ? 'AppLight' : 'AppDark'}>
+          <Header />
+          <div className="main">
+            <Information />
+            <Projects />
+          </div>
         </div>
-      </div>
-    </LangContext.Provider>
+      </LangContext.Provider>
+    </ThemeContext.Provider>
   )
 }
 

@@ -33,6 +33,10 @@ export interface IProjectItem {
   hrefSite?: string
 }
 export interface ILangContext {
-  lang?: boolean
+  lang: boolean
   setLang: React.Dispatch<React.SetStateAction<boolean>>
+}
+export interface IThemeContext {
+  theme: boolean
+  setTheme: React.Dispatch<React.SetStateAction<boolean>>
 }

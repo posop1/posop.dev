@@ -3,10 +3,22 @@ $white: #eaeaea;
 $lightbg: #0d0d0d;
 $light: #5c5c5c;
 
-.App {
+.AppLight {
+  background: $white;
+  color: $bg-color;
+  padding: 0 15px;
+
+  button {
+    color: $bg-color;
+  }
+}
+.AppDark {
   background: $lightbg;
   color: $white;
-  padding: 0 15px;
+
+  button {
+    color: $white;
+  }
 }
 .container {
   max-width: 900px;
