@@ -11,10 +11,7 @@ const InfoItem: FC<IText> = ({ title, body, stack }) => {
           <h2 className={styles.title}>
             {title}
             <p>
-              <FaHandPeace
-                color="ffff00"
-                size={'25px'}
-              />
+              <FaHandPeace size={'25px'} />
             </p>
           </h2>
           <p className={styles.maininfo}>{body}</p>
