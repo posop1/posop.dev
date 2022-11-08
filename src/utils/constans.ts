@@ -45,7 +45,7 @@ export const projects: IProject[] = [
       {
         id: 1,
         name: 'Simply-store',
-        description: 'This prject, it\'s store fir nothing.',
+        description: 'This project, it\'s store for nothing.',
         stack: 'TypeScript, React, Redux/toolkit, React-Router, SASS ',
         hrefGit: 'https://github.com/posop1/simply-store',
         hrefSite: 'https://simply-store.vercel.app/'
@@ -79,7 +79,7 @@ export const projects: IProject[] = [
       {
         id: 1,
         name: 'Simply-store',
-        description: 'This prject, it\'s store fir nothing.',
+        description: 'This project, it\'s store for nothing.',
         stack: 'TypeScript, React, Redux/toolkit, React-Router, SASS ',
         hrefGit: 'https://github.com/posop1/simply-store',
         hrefSite: 'https://simply-store.vercel.app/'
