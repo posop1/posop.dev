@@ -44,11 +44,11 @@ export const projects: IProject[] = [
     items: [
       {
         id: 1,
-        name: 'RUtest',
-        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
-        stack: 'test, test, test,  test',
-        hrefGit: 'https://google.com',
-        hrefSite: 'https://www.youtube.com/watch?v=vjwruD6Jd4o&ab_channel=Obmanchik1'
+        name: 'Simply-store',
+        description: 'This prject, it\'s store fir nothing.',
+        stack: 'TypeScript, React, Redux/toolkit, React-Router, SASS ',
+        hrefGit: 'https://github.com/posop1/simply-store',
+        hrefSite: 'https://simply-store.vercel.app/'
       },
       {
         id: 2,
@@ -78,11 +78,11 @@ export const projects: IProject[] = [
     items: [
       {
         id: 1,
-        name: 'ENtest',
-        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
-        stack: 'test, test, test,  test',
-        hrefGit: 'https://google.com',
-        hrefSite: 'https://www.youtube.com/watch?v=vjwruD6Jd4o&ab_channel=Obmanchik1'
+        name: 'Simply-store',
+        description: 'This prject, it\'s store fir nothing.',
+        stack: 'TypeScript, React, Redux/toolkit, React-Router, SASS ',
+        hrefGit: 'https://github.com/posop1/simply-store',
+        hrefSite: 'https://simply-store.vercel.app/'
       },
       {
         id: 2,
