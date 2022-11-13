@@ -44,11 +44,11 @@ export const projects: IProject[] = [
     items: [
       {
         id: 1,
-        name: 'Simply-store',
-        description: 'This project, it\'s store for nothing.',
-        stack: 'TypeScript, React, Redux/toolkit, React-Router, SASS ',
-        hrefGit: 'https://github.com/posop1/simply-store',
-        hrefSite: 'https://simply-store.vercel.app/'
+        name: 'Pomodoro',
+        description: 'Просто Помодоро таймер',
+        stack: 'TypeScript, React, SASS ',
+        hrefGit: 'https://github.com/posop1/pomodoro',
+        hrefSite: 'https://pomodoro-fawn.vercel.app/'
       },
       {
         id: 2,
@@ -78,11 +78,11 @@ export const projects: IProject[] = [
     items: [
       {
         id: 1,
-        name: 'Simply-store',
-        description: 'This project, it\'s store for nothing.',
-        stack: 'TypeScript, React, Redux/toolkit, React-Router, SASS ',
-        hrefGit: 'https://github.com/posop1/simply-store',
-        hrefSite: 'https://simply-store.vercel.app/'
+        name: 'Pomodoro',
+        description: "It' simply Pomodoro timer",
+        stack: 'TypeScript, React, SASS ',
+        hrefGit: 'https://github.com/posop1/pomodoro',
+        hrefSite: 'https://pomodoro-fawn.vercel.app/'
       },
       {
         id: 2,
