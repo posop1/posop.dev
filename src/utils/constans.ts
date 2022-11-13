@@ -52,10 +52,10 @@ export const projects: IProject[] = [
       },
       {
         id: 2,
-        name: 'RUtest2',
-        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
-        stack: 'test, test, test,  test',
-        hrefGit: 'https://google.com'
+        name: 'MERN Blog',
+        description: 'Просто Fullstack блог',
+        stack: 'MongoDB, Express, React, NodeJS, Redux/toolki',
+        hrefGit: 'https://github.com/posop1/mern-blog'
       },
       {
         id: 3,
@@ -86,10 +86,10 @@ export const projects: IProject[] = [
       },
       {
         id: 2,
-        name: 'ENtest2',
-        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
-        stack: 'test, test, test,  test',
-        hrefGit: 'https://google.com'
+        name: 'MERN Blog',
+        description: 'Simply Fullstack blog',
+        stack: 'MongoDB, Express, React, NodeJS, Redux/toolki',
+        hrefGit: 'https://github.com/posop1/mern-blog'
       },
       {
         id: 3,
