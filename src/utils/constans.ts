@@ -59,10 +59,11 @@ export const projects: IProject[] = [
       },
       {
         id: 3,
-        name: 'RUtest2',
-        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
-        stack: 'test, test, test,  test',
-        hrefGit: 'https://google.com'
+        name: 'Web News',
+        description: 'Новостной сайт',
+        stack: 'Next, React, TypeScript, NEWS-API',
+        hrefGit: 'https://github.com/posop1/web-news',
+        hrefSite: 'https://web-news-amber.vercel.app/'
       },
       {
         id: 4,
@@ -93,10 +94,11 @@ export const projects: IProject[] = [
       },
       {
         id: 3,
-        name: 'ENtest2',
-        description: 'test testte sttesttes ttesttestt esttesttes ttesttestt esttesttes ttes ttest',
-        stack: 'test, test, test,  test',
-        hrefGit: 'https://google.com'
+        name: 'Web News',
+        description: 'NEws web-site',
+        stack: 'Next, React, TypeScript, NEWS-API',
+        hrefGit: 'https://github.com/posop1/web-news',
+        hrefSite: 'https://web-news-amber.vercel.app/'
       },
       {
         id: 4,
