@@ -64,6 +64,14 @@ export const projects: IProject[] = [
         stack: 'Next, React, TypeScript, NEWS-API',
         hrefGit: 'https://github.com/posop1/web-news',
         hrefSite: 'https://web-news-amber.vercel.app/'
+      },
+      {
+        id: 4,
+        name: 'eCommerce',
+        description: 'Сайт - магазин',
+        stack: 'TypeScript, React, Redux, SASS, mockApi',
+        hrefGit: 'https://github.com/posop1/eCommerce',
+        hrefSite: 'https://e-commerce-posop1.vercel.app/'
       }
     ]
   },
@@ -92,6 +100,14 @@ export const projects: IProject[] = [
         stack: 'Next, React, TypeScript, NEWS-API',
         hrefGit: 'https://github.com/posop1/web-news',
         hrefSite: 'https://web-news-amber.vercel.app/'
+      },
+      {
+        id: 4,
+        name: 'eCommerce',
+        description: 'Shop - website',
+        stack: 'TypeScript, React, Redux, SASS, mockApi',
+        hrefGit: 'https://github.com/posop1/eCommerce',
+        hrefSite: 'https://e-commerce-posop1.vercel.app/'
       }
     ]
   }
