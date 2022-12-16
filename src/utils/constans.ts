@@ -90,7 +90,7 @@ export const projects: IProject[] = [
         id: 2,
         name: 'MERN Blog',
         description: 'Simply Fullstack blog',
-        stack: 'MongoDB, Express, React, NodeJS, Redux/toolki',
+        stack: 'MongoDB, Express, React, NodeJS',
         hrefGit: 'https://github.com/posop1/mern-blog'
       },
       {

@@ -45,6 +45,12 @@ h4 {
   .ProjectItem {
     flex-direction: column;
   }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .links {
     margin-top: 20px;
   }
