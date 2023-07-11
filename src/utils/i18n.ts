@@ -10,11 +10,11 @@ export const socialLinks: ILinks[] = [
 export const text: IText[] = [
   {
     title: 'Привет, меня зовут Артур(Posop)',
-    body: 'Я 19-летний программист из России г.Нижневартовск. Я заинтересован в Frontend на React и также не много в Backend разработке, на NodeJs.',
+    body: 'Я 20-летний программист из России г.Нижневартовск. Я заинтересован в Frontend на React и также не много в Backend разработке, на NodeJs.',
     stack: {
       title: 'Мой стэк:',
       stackItem: [
-        { text: 'TypeScript' },
+        { text: 'TypeScript, ES6+' },
         { text: 'React, NodeJs, Express' },
         { text: 'Redux. redux/toolkit' },
         { text: 'SASS, SCSS, styled-components' },
@@ -28,7 +28,7 @@ export const text: IText[] = [
     stack: {
       title: 'My stack:',
       stackItem: [
-        { text: 'TypeScript' },
+        { text: 'TypeScript, ES6+' },
         { text: 'React, NodeJs, Express' },
         { text: 'Redux. redux/toolkit' },
         { text: 'SASS, SCSS, styled-components' },

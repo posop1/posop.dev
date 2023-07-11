@@ -1,6 +1,6 @@
 import { FC, useContext } from 'react'
 import { LangContext } from '../../context'
-import { socialLinks, text } from '../../utils/constans'
+import { socialLinks, text } from '../../utils/i18n'
 import InfoItem from './InfoItem'
 import styles from './Information.module.scss'
 

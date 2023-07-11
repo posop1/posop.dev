@@ -1,6 +1,6 @@
 import { FC, useContext } from 'react'
 import { LangContext } from '../../context'
-import { projects } from '../../utils/constans'
+import { projects } from '../../utils/i18n'
 import ProjectList from './ProjectList'
 import styles from './Projects.module.scss'
 
