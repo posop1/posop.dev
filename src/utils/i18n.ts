@@ -2,7 +2,7 @@ import { FaDiscord, FaGithub, FaTelegramPlane } from 'react-icons/fa'
 import { ILinks, IProject, IText } from '../types'
 
 export const socialLinks: ILinks[] = [
-  { id: 1, component: FaTelegramPlane, href: 'https://t.me/posop1' },
+  { id: 1, component: FaTelegramPlane, href: 'https://t.me/iamnotadeveloper' },
   { id: 2, component: FaDiscord, href: 'https://discordapp.com/users/470606448368549907/' },
   { id: 3, component: FaGithub, href: 'https://github.com/posop1' }
 ]
@@ -10,28 +10,28 @@ export const socialLinks: ILinks[] = [
 export const text: IText[] = [
   {
     title: 'Привет, меня зовут Артур(Posop)',
-    body: 'Я 20-летний программист из России г.Нижневартовск. Я заинтересован в Frontend на React и также не много в Backend разработке, на NodeJs.',
+    body: 'Я 20-летний программист из России г.Нижневартовск. Я заинтересован в Frontend на Vue и также не много в Backend разработке, на NodeJs.',
     stack: {
       title: 'Мой стэк:',
       stackItem: [
         { text: 'TypeScript, ES6+' },
-        { text: 'React, NodeJs, Express' },
-        { text: 'Redux. redux/toolkit' },
-        { text: 'SASS, SCSS, styled-components' },
+        { text: 'Vue, NodeJS' },
+        { text: 'Vuex' },
+        { text: 'SASS, Vuetify' },
         { text: 'ESLint, Prettier' },
         { text: 'Git, GitHub, GitLab' }]
     }
   },
   {
     title: 'Hello, my name is Artur(Posop)',
-    body: "I'm 19 y.o. programmer from Nizhnevartovsk, Russia. I'm interested in Frontend development on React and also I know something about Backend development on NodeJs.",
+    body: "I'm 20 y.o. programmer from Nizhnevartovsk, Russia. I'm interested in Frontend development on Vue and also I know something about Backend development on NodeJs.",
     stack: {
       title: 'My stack:',
       stackItem: [
         { text: 'TypeScript, ES6+' },
-        { text: 'React, NodeJs, Express' },
-        { text: 'Redux. redux/toolkit' },
-        { text: 'SASS, SCSS, styled-components' },
+        { text: 'Vue, NodeJS' },
+        { text: 'Vuex' },
+        { text: 'SASS, Vuetify' },
         { text: 'ESLint, Prettier' },
         { text: 'Git, GitHub, GitLab' }]
     }
