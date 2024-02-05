@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Header from './components/Header'
-import Information from './components/Information'
-import Projects from './components/Projects'
+import { Header } from './components/Header'
+import { Information } from './components/Information'
+import { Projects } from './components/Projects'
 import { LangContext, ThemeContext } from './context'
 import './styles/app.scss'
 
