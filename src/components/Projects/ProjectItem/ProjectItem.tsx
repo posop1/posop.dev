@@ -1,15 +1,14 @@
 import { FC } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { MdWebAsset } from 'react-icons/md'
-import { IProjectItem } from '../../../types'
+import { IProject } from '../../../types'
 import styles from './ProjectItem.module.scss'
 
-export const ProjectItem: FC<IProjectItem> = ({ name, description, stack, hrefGit, hrefSite }) => {
+export const ProjectItem: FC<IProject> = ({ name, stack, hrefGit, hrefSite }) => {
   return (
     <div className={styles.ProjectItem}>
       <div className={styles.info}>
         <h4>{name}</h4>
-        <p className={styles.description}>{description}</p>
         <p className={styles.stack}>{stack}</p>
       </div>
       <div className={styles.links}>

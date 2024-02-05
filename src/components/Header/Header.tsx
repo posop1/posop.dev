@@ -1,11 +1,18 @@
 import { FC, useContext } from 'react'
+import { useTranslation } from 'react-i18next'
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
-import { LangContext, ThemeContext } from '../../context'
+import { ThemeContext } from '../../context'
 import styles from './Header.module.scss'
 
 export const Header: FC = () => {
-  const { lang, setLang } = useContext(LangContext)
+  const { t, i18n } = useTranslation()
   const { theme, setTheme } = useContext(ThemeContext)
+
+  console.log(i18n)
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng)
+  }
 
   return (
     <div className={styles.Header}>
@@ -25,11 +32,10 @@ export const Header: FC = () => {
             <button
               className={styles.btn}
               onClick={() => {
-                setLang((lang) => (lang = !lang))
-                console.log(lang)
+                i18n.language === 'en' ? changeLanguage('ru') : changeLanguage('en')
               }}
             >
-              {lang ? 'RU' : 'EN'}
+              {t('lang')}
             </button>
           </div>
         </div>

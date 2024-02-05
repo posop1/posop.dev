@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { Header } from './components/Header'
 import { Information } from './components/Information'
 import { Projects } from './components/Projects'
-import { LangContext, ThemeContext } from './context'
+import { ThemeContext } from './context'
+import './i18n/i18n'
 import './styles/app.scss'
 
 function App() {
-  const [lang, setLang] = useState<boolean>(false)
   const [theme, setTheme] = useState<boolean>(false)
 
   return (
@@ -16,20 +16,13 @@ function App() {
         setTheme
       }}
     >
-      <LangContext.Provider
-        value={{
-          lang,
-          setLang
-        }}
-      >
-        <div className={theme ? 'AppLight' : 'AppDark'}>
-          <Header />
-          <div className="main">
-            <Information />
-            <Projects />
-          </div>
+      <div className={theme ? 'AppLight' : 'AppDark'}>
+        <Header />
+        <div className="main">
+          <Information />
+          <Projects />
         </div>
-      </LangContext.Provider>
+      </div>
     </ThemeContext.Provider>
   )
 }

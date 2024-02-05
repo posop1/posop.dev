@@ -1,19 +1,25 @@
 import { FC } from 'react'
+import { useTranslation } from 'react-i18next'
 import { IProject } from '../../../types'
 import { ProjectItem } from '../ProjectItem'
 import styles from './ProjectList.module.scss'
 
-export const ProjectList: FC<IProject> = ({ title, items }) => {
+interface IProjectList {
+  projects: IProject[]
+}
+
+export const ProjectList: FC<IProjectList> = ({ projects }) => {
+  const { t } = useTranslation()
+
   return (
     <div className={styles.ProjectList}>
       <div className={styles.inner}>
-        <h3 className={styles.title}>{title}</h3>
+        <h3 className={styles.title}>{t('projectsTitle')}</h3>
         <div className={styles.list}>
-          {items.map((item) => (
+          {projects.map((item) => (
             <ProjectItem
               key={item.id}
               name={item.name}
-              description={item.description}
               stack={item.stack}
               hrefGit={item.hrefGit}
               hrefSite={item.hrefSite}
