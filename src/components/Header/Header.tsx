@@ -43,7 +43,7 @@ export const Header: FC = () => {
                 i18n.language === 'en' ? changeLanguage('ru') : changeLanguage('en')
               }}
             >
-              {i18n.language.toLocaleUpperCase()}
+              {i18n.language === 'en' ? 'EN' : 'RU'}
             </button>
           </div>
         </motion.div>
