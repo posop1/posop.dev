@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { FC } from 'react'
 import { projects } from '../../constants/common'
 import { ProjectList } from './ProjectList'
@@ -5,8 +6,15 @@ import styles from './Projects.module.scss'
 
 export const Projects: FC = () => {
   return (
-    <div className={styles.Projects}>
+    <motion.div
+      className={styles.Projects}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        duration: 1
+      }}
+    >
       <ProjectList projects={projects} />
-    </div>
+    </motion.div>
   )
 }

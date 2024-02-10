@@ -18,29 +18,9 @@ export const socialLinks: ILinks[] = [
 export const projects: IProject[] = [
   {
     id: 1,
-    name: 'Pomodoro',
-    stack: 'TypeScript, React, SASS ',
-    hrefGit: 'https://github.com/posop1/pomodoro',
-    hrefSite: 'https://pomodoro-fawn.vercel.app/'
-  },
-  {
-    id: 2,
-    name: 'MERN Blog',
-    stack: 'MongoDB, Express, React, NodeJS',
-    hrefGit: 'https://github.com/posop1/mern-blog'
-  },
-  {
-    id: 3,
-    name: 'Web News',
-    stack: 'Next, React, TypeScript, NEWS-API',
-    hrefGit: 'https://github.com/posop1/web-news',
-    hrefSite: 'https://web-news-amber.vercel.app/'
-  },
-  {
-    id: 4,
-    name: 'eCommerce',
-    stack: 'TypeScript, React, Redux, SASS, mockApi',
-    hrefGit: 'https://github.com/posop1/eCommerce',
-    hrefSite: 'https://e-commerce-posop1.vercel.app/'
+    name: 'Posop.dev (this web-site)',
+    stack: 'TypeScript, React, SASS, i18n ',
+    hrefGit: 'https://github.com/posop1/posop.dev',
+    hrefSite: 'https://posop-dev.vercel.app/'
   }
 ]

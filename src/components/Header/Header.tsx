@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { FC, useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
@@ -17,7 +18,14 @@ export const Header: FC = () => {
   return (
     <div className={styles.Header}>
       <div className="container">
-        <div className={styles.inner}>
+        <motion.div
+          className={styles.inner}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 1
+          }}
+        >
           <h1>Posop Dev</h1>
           <div className={styles.btns__container}>
             <button
@@ -35,10 +43,10 @@ export const Header: FC = () => {
                 i18n.language === 'en' ? changeLanguage('ru') : changeLanguage('en')
               }}
             >
-              {t('lang')}
+              {i18n.language.toLocaleUpperCase()}
             </button>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
