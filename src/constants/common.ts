@@ -18,6 +18,13 @@ export const socialLinks: ILinks[] = [
 export const projects: IProject[] = [
   {
     id: 1,
+    name: 'Habbits',
+    stack: 'TypeScript, Vue, Pinia, SASS, Docker',
+    hrefGit: 'https://github.com/posop1/habbits',
+    hrefSite: 'https://habbits-ten.vercel.app/'
+  },
+  {
+    id: 2,
     name: 'Posop.dev (this web-site)',
     stack: 'TypeScript, React, SASS, i18n ',
     hrefGit: 'https://github.com/posop1/posop.dev',
