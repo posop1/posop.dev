@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaHandPeace } from 'react-icons/fa'
-import { stack } from '../../../constants/common'
+import { stack } from '@/data'
 import styles from './InfoItem.module.scss'
 
 export const InfoItem: FC = () => {

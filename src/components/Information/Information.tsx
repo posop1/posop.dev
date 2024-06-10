@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { FC } from 'react'
-import { socialLinks } from '../../constants/common'
+import { socialLinks } from '@/data'
 import { InfoItem } from './InfoItem'
 import styles from './Information.module.scss'
 

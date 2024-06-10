@@ -1,3 +1,4 @@
+import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import circleDependency from 'vite-plugin-circular-dependency'
 import react from '@vitejs/plugin-react'
@@ -13,6 +14,11 @@ export default defineConfig({
   server: {
     watch: {
       usePolling: true
+    }
+  },
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   }
 })

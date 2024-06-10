@@ -12,7 +12,7 @@ export interface ILinks {
 }
 
 export interface IProject {
-  id?: number
+  id: number
   name: string
   stack: string
   hrefGit: string

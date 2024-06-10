@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { FC } from 'react'
-import { projects } from '../../constants/common'
+import { projects } from '@/data'
 import { ProjectList } from './ProjectList'
 import styles from './Projects.module.scss'
 

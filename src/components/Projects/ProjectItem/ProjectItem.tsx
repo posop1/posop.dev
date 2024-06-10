@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { MdWebAsset } from 'react-icons/md'
-import { IProject } from '../../../types'
+import { IProject } from '@/types'
 import styles from './ProjectItem.module.scss'
 
 export const ProjectItem: FC<IProject> = ({ name, stack, hrefGit, hrefSite }) => {
